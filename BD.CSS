@@ -245,9 +245,29 @@ header {
   text-align: center;
 }
 .card-btn-3:hover {
-  background-color: rgb(182, 255, 201);
+  background-color: rgb(93, 11, 234);
 }
 
+/* qoute section */
+.qoute {
+  background-color: #ebf7f1;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding: 10px;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 130px 0;
+  width: 80%;
+  height: 180px;
+  justify-self: center;
+  border-radius: 16px;
+  align-content: center;
+}
+.qoute:hover {
+  background-color: #acc9ef;
+}
+
+/*  */
 /* Mobile First Responsive */
 @media screen and (max-width: 576px) {
   /* navbar */
@@ -327,5 +347,12 @@ header {
   .vision-card {
     width: 200px;
     height: 200px;
+  }
+  /* qoute */
+  .qoute {
+    padding: 15px;
+    margin-top: 330px;
+    width: 80%;
+    height: 220px;
   }
 }
