@@ -439,6 +439,27 @@ header {
   background-color: #09a15c;
 }
 
+/* footer section */
+footer {
+  gap: 20px;
+  width: 80%;
+  padding: 50px 0;
+  border-radius: 10px;
+  background-color: #eaf1fb;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+}
+footer span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.ft-img {
+  margin-top: 15px;
+  display: flex;
+  justify-self: center;
+  gap: 20px;
+}
 /* Mobile First Responsive */
 @media screen and (max-width: 576px) {
   /* navbar */
@@ -508,15 +529,15 @@ header {
   .Vision {
     width: 80%;
     height: 250px;
-  .vision-cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-top: 100px;
-  }
-  .vision-card {
-    width: 200px;
-    height: 200px;
-  }
+    .vision-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 100px;
+    }
+    .vision-card {
+      width: 200px;
+      height: 200px;
+    }
     gap: 20px;
   }
   .Donate {
@@ -540,49 +561,49 @@ header {
     height: 25px;
   }
   /* Subscribe Newsletter */
-.subscribe-newslatter {
-  width: 80%;
-  height: 220px;
-  border-radius: 10px;
-  justify-self: center;
-  text-align: center;
-  align-content: center;
-  background-color: #c6e4d6;
-  margin-bottom: 50px;
-}
-.Subscribe h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.Subscribe p {
-  color: rgba(14, 14, 14, 0.7);
-  margin-bottom: 10px;
-}
-.Subscribe-Input {
-  width: 70%;
-  display: flex;
-  justify-self: center;
-  margin: 20px 0;
-  height: 30px;
-}
-.Input-1 {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  width: 290px;
-  text-align: start;
-  padding-top: 4px;
-  padding-left: 5px;
-  color: rgba(14, 14, 14, 0.3);
-  background-color: white;
-}
-.Input-2 {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 175px;
-  padding-top: 4px;
-  color: white;
-  font-weight: bold;
-  background-color: #09a15c;
-}
+  .subscribe-newslatter {
+    width: 80%;
+    height: 220px;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+    align-content: center;
+    background-color: #c6e4d6;
+    margin-bottom: 50px;
+  }
+  .Subscribe h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .Subscribe p {
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 10px;
+  }
+  .Subscribe-Input {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    margin: 20px 0;
+    height: 30px;
+  }
+  .Input-1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 290px;
+    text-align: start;
+    padding-top: 4px;
+    padding-left: 5px;
+    color: rgba(14, 14, 14, 0.3);
+    background-color: white;
+  }
+  .Input-2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 175px;
+    padding-top: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: #09a15c;
+  }
 }
