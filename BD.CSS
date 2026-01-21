@@ -2,26 +2,130 @@
   margin: 0;
   padding: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.bd-2{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding-top: 30px;
-gap: 100px;
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+/* Navbar Section */
+.bd-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  gap: 100px;
 }
-.bd-2 span{
+.bd-2 span {
   font-size: 2rem;
   font-weight: bold;
 }
-.bd-2 p{
-  border: 1px solid #006A50;
+.bd-2 p {
+  border: 1px solid #006a50;
   border-radius: 5px;
   width: 70px;
   height: 20px;
   font-size: 1rem;
-  color: #006A50;
+  color: #006a50;
   font-weight: 600;
   text-align: center;
+}
+/* Header section */
+header {
+  border-radius: 24px;
+  width: 80%;
+  height: 300px;
+  margin-top: 20px;
+  background-color: #c6e4d6;
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  justify-self: center;
+}
+
+.bd2 {
+  font-size: 0.8rem;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 10px;
+}
+.sign-in:hover {
+  background-color: rgb(179, 250, 198);
+}
+.idea {
+  color: #0e0e0e;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header-texts {
+  align-content: center;
+  padding-left: 15px;
+}
+.explore {
+  border-radius: 8px;
+  width: 210px;
+  height: 30px;
+  background-color: #006a50;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 8px;
+  text-align: center;
+  margin-top: 15px;
+}
+.explore:hover {
+  background-color: rgb(5, 158, 45);
+}
+.header-image {
+  align-content: center;
+}
+.header-image img {
+  align-content: center;
+  padding-right: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+/* Mobile First Responsive */
+@media screen and (max-width: 576px) {
+  /* navbar */
+  .bd-2 {
+    font-size: 1rem;
+    text-align: center;
+    justify-items: center;
+  }
+  .bd-2 span {
+    font-size: 1.05rem;
+  }
+  .bd-2 p {
+    font-size: 0.9rem;
+    width: 55px;
+    height: 20px;
+  }
+  /* Header section */
+  header {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+  }
+  .header-texts {
+    padding-left: 20px;
+  }
+  .idea {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .bd2 {
+    font-size: 0.8rem;
+  }
+  .explore {
+    width: 150px;
+    height: 25px;
+    font-size: 0.7rem;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .header-image img {
+    width: 150px;
+    height: 100px;
+  }
+  /*  */
 }
