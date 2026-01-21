@@ -275,7 +275,7 @@ header {
   background-color: #ebf7f1;
   border-radius: 25px;
   width: 80%;
-  height: 300px;
+  height: 330px;
   margin: 50px 0;
   justify-items: center;
   align-items: center;
@@ -288,6 +288,8 @@ header {
   width: 30%px;
   height: 250px;
   border-radius: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .news-info {
   align-items: center;
@@ -312,6 +314,82 @@ header {
   margin-top: 5px;
 }
 .news-btn:hover {
+  background-color: rgb(93, 11, 234);
+}
+
+/* donate */
+.Donate {
+  width: 80%;
+  height: 290px;
+  margin: 50px 0;
+  justify-self: center;
+}
+.donate-title {
+  text-align: center;
+  height: 110px;
+}
+.donate-title h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.donate-title p {
+  font-size: 1rem;
+  color: rgba(14, 14, 14, 0.7);
+  padding-bottom: 10px;
+}
+.taka {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+}
+
+.taka-1 {
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  background-color: #eedefc;
+  padding-top: 20px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.taka-1:hover {
+  background-color: #a7c6ed;
+}
+.taka-2 {
+  background-color: #bae1cf;
+}
+
+.donate {
+  margin-top: 30px;
+}
+.donate-taka {
+  width: 70%;
+  text-align: center;
+  justify-self: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  color: rgba(14, 14, 14, 0.3);
+  border-radius: 5px;
+  background-color: #f1faf4;
+}
+.donate-taka:hover {
+  background-color: rgb(207, 185, 247);
+}
+.donate-now {
+  border: 1px solid darkgreen;
+  text-align: center;
+  justify-self: center;
+  width: 15%;
+  height: 25px;
+  background-color: #006a50;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding-top: 3px;
+}
+.donate-now:hover {
   background-color: rgb(93, 11, 234);
 }
 /* Mobile First Responsive */
@@ -417,5 +495,26 @@ header {
     align-items: center;
     padding-right: 10px;
     padding-left: 15px;
+  }
+  /* donate */
+  .Donate {
+    width: 80%;
+    height: 290px;
+    margin: 50px 0;
+  }
+  .donate-title {
+    text-align: center;
+    height: 110px;
+  }
+  .taka {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    justify-self: center;
+  }
+  .donate-now {
+    width: 23%;
+    height: 25px;
   }
 }
