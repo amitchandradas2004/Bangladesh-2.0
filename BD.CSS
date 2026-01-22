@@ -537,7 +537,7 @@ footer span {
     width: 150px;
     height: 180px;
   }
-  .card span {  
+  .card span {
     padding-bottom: 5px;
     font-size: 0.8rem;
   }
@@ -546,7 +546,46 @@ footer span {
   }
   /* Vision */
   .Vision {
-    display: none;
+    width: 85%;
+    height: 250px;
+    margin-top: 220px;
+  }
+  .vision-title {
+    font-size: 1.2rem;
+  }
+  .vision-info {
+    font-size: 0.6rem;
+    margin: 15px 0;
+  }
+  .vision-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .vision-card {
+    border-radius: 20px;
+    justify-self: center;
+    width: 75%;
+    height: 150px;
+  }
+  .vision-card img {
+    width: 25px;
+    height: 25px;
+  }
+  .vision-card h4 {
+    font-size: 0.8rem;
+  }
+  .vision-card p {
+    font-size: 0.6rem;
+  }
+  .card-btn-1,
+  .card-btn-2,
+  .card-btn-3 {
+    width: 25%;
+    height: 10%;
+    padding-top: 2px;
+    margin-top: 5px;
+    border-radius: 10px;
   }
   /* qoute */
   .qoute {
