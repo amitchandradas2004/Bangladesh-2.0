@@ -280,7 +280,7 @@ header {
   align-items: center;
   align-content: center;
 }
-.news-2{
+.news-2 {
   padding-left: 20px;
 }
 .news:hover {
@@ -290,6 +290,9 @@ header {
   width: 30%px;
   height: 200px;
   border-radius: 35px;
+}
+.al-jazeera {
+  width: 10px;
 }
 .news-info {
   align-items: center;
@@ -315,7 +318,7 @@ header {
 .news-btn:hover {
   background-color: rgb(93, 11, 234);
 }
-.news-title{
+.news-title {
   font-size: 1rem;
 }
 /* donate */
@@ -405,11 +408,12 @@ header {
   margin-bottom: 50px;
 }
 .Subscribe h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 .Subscribe p {
+  font-size: 0.8rem;
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 10px;
 }
@@ -489,19 +493,19 @@ footer span {
     justify-self: center;
   }
   .bd2 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .idea {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .header-texts {
     text-align: start;
     padding-left: 30px;
   }
   .explore {
-    width: 150px;
-    height: 25px;
-    font-size: 0.6rem;
+    width: 130px;
+    height: 20px;
+    font-size: 0.5rem;
     padding-top: 10px;
     margin-top: 10px;
   }
@@ -511,13 +515,34 @@ footer span {
   }
   .header-image img {
     align-content: center;
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 140px;
   }
 
   /* Pillars*/
   .Pillars {
-    display: none;
+    width: 85%;
+    height: 250px;
+  }
+  .pillar-title {
+    font-size: 1.1rem;
+  }
+  .pillar-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card {
+    gap: 20px;
+    width: 150px;
+    height: 180px;
+  }
+  .card span {  
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+  }
+  .card p {
+    font-size: 0.6rem;
   }
   /* Vision */
   .Vision {
