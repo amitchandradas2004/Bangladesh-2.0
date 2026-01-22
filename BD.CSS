@@ -257,6 +257,7 @@ header {
   margin: 130px 0;
   width: 80%;
   height: 180px;
+  font-size: 0.8rem;
   justify-self: center;
   border-radius: 16px;
   align-content: center;
@@ -271,28 +272,28 @@ header {
   grid-template-columns: repeat(2, 1fr);
   justify-self: center;
   background-color: #ebf7f1;
-  border-radius: 25px;
+  border-radius: 35px;
   width: 80%;
-  height: 330px;
+  height: 230px;
   margin: 50px 0;
   justify-items: center;
   align-items: center;
   align-content: center;
+}
+.news-2{
+  padding-left: 20px;
 }
 .news:hover {
   background-color: #c1d9f7;
 }
 .recent-img img {
   width: 30%px;
-  height: 250px;
-  border-radius: 25px;
-  padding-right: 10px;
-  padding-left: 10px;
+  height: 200px;
+  border-radius: 35px;
 }
 .news-info {
   align-items: center;
-  padding-right: 20px;
-  padding-left: 20px;
+  font-size: 0.5rem;
 }
 .news-time {
   display: flex;
@@ -302,7 +303,7 @@ header {
 .news-btn {
   background-color: #006a50;
   border-radius: 5px;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: bold;
   width: 80px;
   height: 20px;
@@ -314,7 +315,9 @@ header {
 .news-btn:hover {
   background-color: rgb(93, 11, 234);
 }
-
+.news-title{
+  font-size: 1rem;
+}
 /* donate */
 .Donate {
   width: 80%;
@@ -327,12 +330,12 @@ header {
   height: 110px;
 }
 .donate-title h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .donate-title p {
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: rgba(14, 14, 14, 0.7);
   padding-bottom: 10px;
 }
@@ -341,7 +344,6 @@ header {
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
 }
-
 .taka-1 {
   width: 100px;
   height: 45px;
@@ -349,7 +351,7 @@ header {
   background-color: #eedefc;
   padding-top: 20px;
   border-radius: 12px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .taka-1:hover {
@@ -358,7 +360,6 @@ header {
 .taka-2 {
   background-color: #bae1cf;
 }
-
 .donate {
   margin-top: 30px;
 }
@@ -368,6 +369,7 @@ header {
   justify-self: center;
   padding: 10px 0;
   margin-bottom: 10px;
+  font-size: 0.8rem;
   color: rgba(14, 14, 14, 0.3);
   border-radius: 5px;
   background-color: #f1faf4;
@@ -383,9 +385,10 @@ header {
   height: 25px;
   background-color: #006a50;
   color: white;
+  font-size: 0.8rem;
   font-weight: bold;
   border-radius: 8px;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 .donate-now:hover {
   background-color: rgb(93, 11, 234);
@@ -502,7 +505,7 @@ footer span {
     padding-top: 10px;
     margin-top: 10px;
   }
-  
+
   .header-image {
     align-content: center;
   }
