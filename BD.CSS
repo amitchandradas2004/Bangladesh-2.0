@@ -566,7 +566,7 @@ footer span {
     border-radius: 20px;
     justify-self: center;
     width: 75%;
-    height: 150px;
+    height: 130px;
   }
   .vision-card img {
     width: 25px;
@@ -576,24 +576,73 @@ footer span {
     font-size: 0.8rem;
   }
   .vision-card p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .card-btn-1,
   .card-btn-2,
   .card-btn-3 {
     width: 25%;
     height: 10%;
+    font-size: 0.5rem;
     padding-top: 2px;
     margin-top: 5px;
     border-radius: 10px;
   }
   /* qoute */
   .qoute {
-    display: none;
+    margin-top: 350px;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 170px;
+    font-size: 0.6rem;
+    border-radius: 20px;
   }
   /* news */
   .news {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 80%;
+    height: 320px;
+    margin-top: 40px;
+    text-align: center;
+    justify-self: center;
+  }
+  .recent-img img {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+  }
+  .al-jazeera img {
+    width: 30%;
+    height: 10%;
+  }
+  .news-info {
+    text-align: center;
+    justify-self: center;
+    font-size: 0.4rem;
+    padding: 0 5px;
+  }
+  .news-time {
+    gap: 10px;
+    padding: 5px 0;
+    justify-self: center;
+  }
+  .news-btn {
+    justify-self: center;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    width: 15%;
+    height: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+  }
+  .news-title {
+    font-size: 0.9rem;
+  }
+  .news-2 {
+    padding: 0 5px;
   }
   /* Donate */
   .Donate {
